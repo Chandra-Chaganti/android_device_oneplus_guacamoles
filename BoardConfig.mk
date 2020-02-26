@@ -6,15 +6,15 @@
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/guacamole
+DEVICE_PATH := device/oneplus/guacamoles
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_guacamole
-TARGET_RECOVERY_DEVICE_MODULES := libinit_guacamole
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_guacamoles
+TARGET_RECOVERY_DEVICE_MODULES := libinit_guacamoles
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296

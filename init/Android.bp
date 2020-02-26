@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_guacamole",
+    name: "libinit_guacamoles",
     recovery_available: true,
-    srcs: ["init_guacamole.cpp"],
+    srcs: ["init_guacamoles.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"

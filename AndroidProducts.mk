@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_guacamole.mk
+    $(LOCAL_DIR)/aosp_guacamoles.mk

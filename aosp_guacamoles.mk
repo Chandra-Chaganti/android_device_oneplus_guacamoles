@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from guacamole device
-$(call inherit-product, device/oneplus/guacamole/device.mk)
+$(call inherit-product, device/oneplus/guacamoles/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
@@ -23,10 +23,10 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_WIFI_EXT := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_guacamole
-PRODUCT_DEVICE := guacamole
+PRODUCT_NAME := aosp_guacamoles
+PRODUCT_DEVICE := guacamoles
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7 Pro
+PRODUCT_MODEL := GM1925
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
@@ -39,7 +39,7 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=OnePlus7Pro \
-    PRODUCT_NAME=OnePlus7Pro
+    TARGET_DEVICE=OnePlus7ProNR \
+    PRODUCT_NAME=OnePlus7ProNR
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
