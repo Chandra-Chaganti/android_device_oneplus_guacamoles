@@ -321,34 +321,34 @@
     <ctl name="SpkrLeft WSA PA Gain" value="G_0_DB" />
 
     <!-- Volume controls -->
-    <ctl name="LINEOUT1 Volume" value="13" />
-    <ctl name="LINEOUT2 Volume" value="13" />
-    <ctl name="HPHL Volume" value="20" />
-    <ctl name="HPHR Volume" value="20" />
-    <ctl name="EAR PA Gain" value="G_6_DB" />
+    <ctl name="LINEOUT1 Volume" value="15" />
+    <ctl name="LINEOUT2 Volume" value="15" />
+    <ctl name="HPHL Volume" value="25" />
+    <ctl name="HPHR Volume" value="25" />
+    <ctl name="EAR PA Gain" value="G_8_DB" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
-    <ctl name="RX0 Digital Volume" value="84" />
-    <ctl name="RX1 Digital Volume" value="84" />
-    <ctl name="RX2 Digital Volume" value="84" />
-    <ctl name="RX3 Digital Volume" value="84" />
-    <ctl name="RX4 Digital Volume" value="84" />
-    <ctl name="RX5 Digital Volume" value="84" />
-    <ctl name="RX6 Digital Volume" value="84" />
-    <ctl name="RX7 Digital Volume" value="84" />
+    <ctl name="RX0 Digital Volume" value="90" />
+    <ctl name="RX1 Digital Volume" value="90" />
+    <ctl name="RX2 Digital Volume" value="90" />
+    <ctl name="RX3 Digital Volume" value="90" />
+    <ctl name="RX4 Digital Volume" value="90" />
+    <ctl name="RX5 Digital Volume" value="90" />
+    <ctl name="RX6 Digital Volume" value="90" />
+    <ctl name="RX7 Digital Volume" value="90" />
     <ctl name="ADC1 Volume" value="12" />
     <ctl name="ADC2 Volume" value="12" />
     <ctl name="ADC3 Volume" value="0" />
     <ctl name="ADC4 Volume" value="0" />
-    <ctl name="DEC0 Volume" value="84" />
-    <ctl name="DEC1 Volume" value="84" />
-    <ctl name="DEC2 Volume" value="84" />
-    <ctl name="DEC3 Volume" value="84" />
-    <ctl name="DEC4 Volume" value="84" />
-    <ctl name="DEC5 Volume" value="84" />
-    <ctl name="DEC6 Volume" value="84" />
-    <ctl name="DEC7 Volume" value="84" />
-    <ctl name="DEC8 Volume" value="84" />
+    <ctl name="DEC0 Volume" value="88" />
+    <ctl name="DEC1 Volume" value="88" />
+    <ctl name="DEC2 Volume" value="88" />
+    <ctl name="DEC3 Volume" value="88" />
+    <ctl name="DEC4 Volume" value="88" />
+    <ctl name="DEC5 Volume" value="88" />
+    <ctl name="DEC6 Volume" value="88" />
+    <ctl name="DEC7 Volume" value="88" />
+    <ctl name="DEC8 Volume" value="88" />
 
     <!-- Compander controls -->
     <ctl name="COMP1 Switch" value="1" />
