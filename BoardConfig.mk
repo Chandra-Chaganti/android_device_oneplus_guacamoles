@@ -12,6 +12,9 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
 
+# Kernel
+TARGET_KERNEL_CONFIG := kronic_defconfig
+
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_guacamoles
 TARGET_RECOVERY_DEVICE_MODULES := libinit_guacamoles
